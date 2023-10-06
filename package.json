@@ -1,7 +1,7 @@
 {
-  "name": "amocrm-js",
+  "name": "kommo-js",
   "version": "3.5.0",
-  "description": "JS Library for AmoCRM",
+  "description": "JS Library for Kommo(AmoCRM)",
   "main": "./dist/Client.js",
   "directories": {
     "test": "test"
@@ -18,19 +18,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/UsefulWeb/AmoCRM.git"
+    "url": "git+https://github.com/ostapyrih/Kommo.git"
   },
   "keywords": [
     "crm",
     "amocrm",
-    "amo"
+    "amo",
+    "kommo"
   ],
   "author": "Vladimir Yazykov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/UsefulWeb/AmoCRM/issues"
+    "url": "https://github.com/ostapyrih/Kommo/issues"
   },
-  "homepage": "https://github.com/UsefulWeb/AmoCRM#readme",
+  "homepage": "https://github.com/ostapyrih/Kommo#readme",
   "devDependencies": {
     "@babel/core": "^7.21.0",
     "@babel/plugin-proposal-class-properties": "^7.17.12",
