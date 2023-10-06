@@ -4,7 +4,7 @@ const { client } = require('../client');
 const run = async () => {
     const port = 3000;
     const client = new Client({
-        domain: 'domain.amocrm.ru',
+        domain: 'domain.kommo.com',
         auth: {
             client_id: 'client_id',
             client_secret: 'client_secret',

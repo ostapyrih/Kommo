@@ -37,7 +37,7 @@ export class Auth extends EventEmitter implements IAuth {
     }
 
     getUrl(mode = 'popup') {
-        const baseUrl = 'https://www.amocrm.ru/oauth';
+        const baseUrl = 'https://www.kommo.com/oauth';
         const options = this.environment.get<IClientOptions>();
         const { client_id } = options.auth;
         const params: IAuthUrlParams = {

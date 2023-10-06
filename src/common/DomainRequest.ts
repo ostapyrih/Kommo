@@ -92,7 +92,7 @@ export default class DomainRequest<T> extends EventEmitter {
         if (domain.includes('.')) {
             return domain;
         }
-        return domain + '.amocrm.ru';
+        return domain + '.kommo.com';
     }
     async process(): Promise<IAPIResponse<T>> {
         const apiResponse = await this.makeRequest();

@@ -27,7 +27,7 @@ describe('auth', () => {
     test('get url', async () => {
         const url = client.auth.getUrl();
         const { client_id } = config.auth;
-        const baseUrl = 'https://www.amocrm.ru/oauth';
+        const baseUrl = 'https://www.kommo.com/oauth';
         const expectedUrl = `${baseUrl}?client_id=${client_id}&mode=popup`;
         expect(url).toBe(expectedUrl);
     });
